@@ -71,6 +71,9 @@ Completed part 2:
 * index.js: declare an object with the reducers then export those.
 
 ## UML:
+
+Credit to Billy and Greg for help with these.
+
 ![part1](https://i.imgur.com/naB1Wsy.jpg)
 
 ![part2](https://i.imgur.com/JTy6Rwl.jpg)
