@@ -1,14 +1,17 @@
 # lab-31
 
+## Code Sandbox Links:
+Completed part 1:
 [Part 1](https://codesandbox.io/s/91vj7oopr)
 
+Completed part 2:
 [Part 2](https://codesandbox.io/s/6wnnp2rxrk)
 
 
 ## Modules:
-#### Part 1:
+### Part 1:
 
-Components:
+#### Components:
 
  * app.js:
    * render a div that shows the initial state of the 'someStuff' props, passed through by redux.
@@ -17,7 +20,7 @@ Components:
    * mapDispatchToProps(dispatch, getState):
      * map the `handlechange` function to this.props
 
-Redux files: 
+#### Redux files: 
 
 * actions.js:
   * pass along the 'CHANGE' action and the payload to the reducer when the 'changer()' function is called.
@@ -26,9 +29,9 @@ Redux files:
   * set the initial state to be `{foo: 'bar'}`
   * listen for the 'CHANGE' action, then log the payload and return a random number as `{foo: random}`
 
-#### Part 2:
+### Part 2:
 
-Components:
+#### Components:
 
 * app.js: 
   * render a div that renders the props app.name passed through from the store by redux.
@@ -48,7 +51,7 @@ Components:
   * mapDispatchToProps(dispatch, getState):
     * map handleReset to the resetNumbers action from numbers-actions.js
 
-Redux Files:
+#### Redux Files:
 
 * app-actions.js:
   * pass the 'CHANGE' action and payload to the reducers.
@@ -68,6 +71,6 @@ Redux Files:
 * index.js: declare an object with the reducers then export those.
 
 ## UML:
-![part1]()
+![part1](https://i.imgur.com/naB1Wsy.jpg)
 
-![part2]()
+![part2](https://i.imgur.com/JTy6Rwl.jpg)
